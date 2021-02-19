@@ -1,13 +1,14 @@
 header {
     background-color: rgb(242, 144, 143);
-    margin-left: -10px;
-    margin-top: -10px;
+    /* margin-left: -10px;
+    margin-top: -10px; */
     text-align: start;
     width: 110%;
     height: 150px;
     position: relative;
     bottom: top;
     border: solid thin black;
+    margin: -10px;
 
 }
 
@@ -50,7 +51,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     padding: 15px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .bottom-box {
