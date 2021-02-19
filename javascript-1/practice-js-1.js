@@ -37,6 +37,12 @@ if(data = true){
   return true;
 }else if(data = false) {
   return false;
+}else if(data = null) {
+  return false;
+}else if(data = undefined) {
+  return false;
+}else if(data = 0) {
+  return false;
 }
 }
 //////////////////PROBLEM 6////////////////////
@@ -129,9 +135,9 @@ var me = {
 function bigOrSmall(arr){
   var answers = []
   for(let i = 0; i < arr.length; i++){
-    if(i > 100){
+    if(arr[i] > 100){
       answers.push('big')
-    } else if (i <= 100){
+    } else if (arr[i] <= 100){
       answers.push('small')
     }
   }
